@@ -6,6 +6,7 @@
   * [User Story](#user-story)
   * [Languages](#languages)
   * [Link to URL](#live-url-link)
+  * [Testing](#testing)
   * [Photos](#photos)
   * [Contributors](#contributors)
   * [License](#license)
@@ -45,6 +46,20 @@
 
   ## Live URL Link
   https://shrouded-brook-41588.herokuapp.com/
+  
+  ## Testing
+  
+  To test the offline functionality of the app:
+  ``` md
+  * Go to live url link.
+  * Open DevTools and go to Network tab.
+  * Click No throttling and select offline.
+  * Add a transaction.  
+  * Return to DevTools and select no throttling in Network tab again.
+  * A modal will pop up to let you know that saved transactions have been submitted.
+  * Refresh the page and the transaction added offline will still be available.
+  ```
+  
   
   ## Photos
   **_Image of Site_**:
